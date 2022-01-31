@@ -1,4 +1,4 @@
-baseURL = 'http://woojoo-along-kimbu.github.io/'
+baseURL = 'https://gimbu.netlify.app/'
 languageCode = 'en'
 title = 'Hugo Future Imperfect Slim'
 theme                   = "hugo-future-imperfect-slim"
