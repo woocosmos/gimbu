@@ -63,6 +63,7 @@ $shadow-scroll: inset 0 0 6px hsla(0, 0%, 0%, 0.3);
 
 // name, color(hsl), unicode, font[opt], weight[opt]
 $brands: (
+  (instagram, rgb(131, 58, 180), "\f099"),
   (twitter, hsl(197, 100%, 47%), "\f099"),
   (facebook, hsl(221, 44%, 41%), "\f09a"),
   (linkedin, hsl(201, 100%, 35%), "\f08c"),
@@ -956,7 +957,7 @@ figcaption {
   }
 }
 
-.share-toggle,
+/* .share-toggle, */
 .search-toggle {
   display: none;
   @include for-tablet-up {
@@ -1170,7 +1171,8 @@ figcaption {
       flex-basis: 100%;
       order: 1;
     }
-    .share-toggle, .search-toggle {
+    /*.share-toggle,*/ 
+    .search-toggle {
       display: block;
       flex-basis: 100%;
       order: 3;
@@ -1211,6 +1213,7 @@ figcaption {
   }
 }
 
+
 #share-menu {
   @include display-flex;
   flex-direction: column;
@@ -1240,7 +1243,7 @@ figcaption {
       }
     }
   }
-}
+} 
 
 #site-intro {
   grid-area: intro;
@@ -1349,6 +1352,7 @@ figcaption {
   }
 }
 
+
 #socnet-share {
   @include display-flex;
   flex-wrap: wrap;
@@ -1371,7 +1375,7 @@ figcaption {
   p {
     display: none;
   }
-}
+} 
 
 #wrapper {
   display: -ms-grid;
@@ -1575,7 +1579,7 @@ figcaption {
   }
 }
 
-/* Share Button */
+/* Share Button 
 
 .share-btn {
   font-size: 1.5em;
@@ -1594,7 +1598,7 @@ figcaption {
   &:hover {
     color: $white;
   }
-}
+} */
 
 /* Share Branding */
 

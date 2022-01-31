@@ -715,16 +715,14 @@ figcaption {
         min-width: 12.5em; }
         .nav-title a img {
           margin-top: -0.2em; } }
-.share-toggle,
+/* .share-toggle, */
 .search-toggle {
   display: none; }
   @media (min-width: 425px) {
-    .share-toggle,
     .search-toggle {
       display: block;
       text-align: center;
       width: 61px; }
-      .share-toggle i,
       .search-toggle i {
         vertical-align: middle; } }
 .nav-toggle {
@@ -885,7 +883,8 @@ figcaption {
   justify-content: space-between; }
   #site-nav .flyout-menu {
     right: -177px;
-    width: 177px; }
+    width: 177px;
+    /*.share-toggle,*/ }
     @media (min-width: 1024px) {
       #site-nav .flyout-menu {
         background-color: unset;
@@ -913,12 +912,12 @@ figcaption {
       display: inline-flex;
       flex-basis: 100%;
       order: 1; }
-    #site-nav .flyout-menu .share-toggle, #site-nav .flyout-menu .search-toggle {
+    #site-nav .flyout-menu .search-toggle {
       display: block;
       flex-basis: 100%;
       order: 3; }
       @media (min-width: 425px) {
-        #site-nav .flyout-menu .share-toggle, #site-nav .flyout-menu .search-toggle {
+        #site-nav .flyout-menu .search-toggle {
           display: none; } }
 #search {
   display: -webkit-box;
@@ -1346,24 +1345,35 @@ figcaption {
   -webkit-clip-path: ellipse(40% 25% at 50% 50%);
   clip-path: ellipse(40% 25% at 50% 50%); }
 
-/* Share Button */
+/* Share Button 
+
 .share-btn {
   font-size: 1.5em;
   border-radius: 4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: $shadow-1;
   letter-spacing: 0;
-  color: white;
+  color: $white;
   text-align: center;
-  transition: background-color 0.2s ease-in-out; }
-  .share-btn:active {
+  transition: background-color $hover;
+  &:active {
     position: relative;
     top: 2px;
     box-shadow: none;
-    color: #e6e6e6; }
-  .share-btn:hover {
-    color: white; }
-
+    color: darken($white, 10%);
+  }
+  &:hover {
+    color: $white;
+  }
+} */
 /* Share Branding */
+.instagram {
+  background-color: #833ab4; }
+  .instagram:hover {
+    background-color: #672e8d; }
+  .instagram::before {
+    font-family: "Font Awesome 5 Brands";
+    content: ""; }
+
 .twitter {
   background-color: #00acf0; }
   .twitter:hover {

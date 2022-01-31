@@ -1,6 +1,6 @@
 baseURL = 'https://gimbu.netlify.app/'
 languageCode = 'ko'
-title = 'built by yunsoo'
+title = 'woojoo'
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -24,7 +24,7 @@ disableLanguages        = []
   viewMorePostsLink     = "/blog/"
   readingTime           = true
   imageStrech           = ""
-  socialShare           = ["Instagram", "email"]
+  socialShare           = ["Instagram"]
 
 [params.meta]
 	description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
