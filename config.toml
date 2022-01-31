@@ -1,6 +1,6 @@
 baseURL = 'https://gimbu.netlify.app/'
-languageCode = 'en'
-title = 'Hugo Future Imperfect Slim'
+languageCode = 'ko'
+title = 'built by yunsoo'
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -24,7 +24,7 @@ disableLanguages        = []
   viewMorePostsLink     = "/blog/"
   readingTime           = true
   imageStrech           = ""
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  socialShare           = ["Instagram", "email"]
 
 [params.meta]
 	description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
@@ -36,29 +36,29 @@ disableLanguages        = []
 	iOSColor            = "#ffffff"
 
 [params.header]
-	navbarTitle         = "Future Imperfect"
+	navbarTitle         = "woojoo"
 	dynamicTitles       = true
 	searchMenu          = true
 	shareMenu           = true
-	languageMenu        = true
+	languageMenu        = false
 
 
 [params.intro]
-	header                = "Hugo Future Imperfect Slim"
-	paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+	header                = "낌부 싸이트"
+	paragraph             = "<a href='https://www.instagram.com/coincidence_number/'>연수</a>가 <a href='https://www.instagram.com/seahorse_lee/'>예주</a> 자랑하려고 만든 사이트."
 	rssIntro              = true
 	socialIntro           = true
 	hideWhenSingleColumn  = false
 	alwaysOnHomepage      = false
 
 	[params.intro.pic]
-		src                 = "/img/main/logo.jpg"
+		src                 = "/img/main/main.jpeg"
 		shape               = "circle"
 		width               = ""
-		alt                 = "Hugo Future Imperfect Slim"
+		alt                 = ""
 
 [params.sidebar]
-  about               = "This theme was developed for Hugo static site generator."
+  about               = "테스트입니다ㅏㅏ"
   postAmount          = 5
   categories          = true
   categoriesByCount   = true
@@ -95,30 +95,10 @@ disableLanguages        = []
 		pre               = "<i class='far fa-id-card'></i>"
 		weight            = 2
 
-[Languages]
-
-	[Languages.en]
-		LanguageCode        = "en"
-		LanguageName        = "English"
-		weight              = 1
-
-	[Languages.ko]
-		LanguageCode        = "ko"
-		LanguageName        = "한국어"
-		title               = "한국어 페이지"
-		description         = "어쩌구저쩌구"
-		weight              = 2
-
-		[[Languages.ko.menu.main]]
-		name              = "홈"
-		identifier        = "home"
-		url               = "/"
-		pre               = "<i class='fas fa-home'></i>"
-		weight            = 1
 
 [social]
 	# Coding Communities
-	github                = "pacollins/hugo-future-imperfect-slim"
+	github                = "woocosmos/"
 	gitlab                = ""
 	stackoverflow         = "" # User Number
 	bitbucket             = ""
